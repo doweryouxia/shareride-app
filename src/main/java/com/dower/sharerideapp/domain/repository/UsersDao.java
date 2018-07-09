@@ -11,4 +11,5 @@ import java.util.List;
  */
 public interface UsersDao {
     public List<HashMap<String,Object>> queryUserList();
+    public List<HashMap<String,Object>> queryUser();
 }

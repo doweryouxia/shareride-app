@@ -26,4 +26,10 @@ public class ReposiController {
     public Result getInsurInfo(HttpServletRequest request, HttpServletResponse response) {
         return usersService.getInsureInfo();
     }
+
+    @RequestMapping("/getUser")
+    public Result getUser(HttpServletRequest request, HttpServletResponse response) {
+        return usersService.queryUser();
+    }
+
 }

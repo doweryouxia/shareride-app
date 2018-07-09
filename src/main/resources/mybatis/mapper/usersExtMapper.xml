@@ -4,4 +4,7 @@
 	<select id="queryUserList" parameterType="java.util.Map" resultType="java.util.Map">
 		select * from nnt_users t
 	</select>
+	<select id="queryUser" parameterType="java.util.Map" resultType="java.util.Map">
+		select * from nnt_users t where t.num_user_id = 2
+	</select>
 </mapper>
