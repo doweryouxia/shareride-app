@@ -2,18 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <style>
-        *{
-            padding: 0;
-            margin: 0;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no"/>
+    <title>个人中心车主</title>
+    <link rel="stylesheet" href="css/commor.css">
+    <link rel="stylesheet" href="css/carOwnerSet.css">
+    <link rel="shortcut icon" href="logo.png">
 </head>
 <body>
-    <h2>首页</h2>
-    <p>这是段落内容。</p>
-    <p>这是段落内容。</p><p>这是段落内容。</p>
-
+    <div class="carOwner">
+        <p class="setSelf"><img src="img/set.png" alt=""></p>
+        <p class="imgSet">
+            <img src="img/user.jpg" alt="">
+        </p>
+        <div class="getGood fr">
+            <p>300</p>
+            <img src="img/hart.jpg" alt="">
+        </div>
+    </div>
+    <div class="userCar">
+        <form action="">
+            <p>
+               <label for="userName">姓名</label>
+                <input type="text" id="userName">
+            </p>
+            <p>
+                <label for="userPassword">密码</label>
+                <input type="text" id="userPassword">
+            </p>
+        </form>
+        <p class="">我的行程 <span></span></p>
+        <p class="">发起行程 <span></span></p>
+        <a href="javascript:;" class="setAct">结算</a>
+    </div>
 </body>
 </html>
