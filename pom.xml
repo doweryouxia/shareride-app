@@ -9,7 +9,7 @@
 	<packaging>war</packaging>
 
 	<name>shareride-app</name>
-	<description>pingche-weixin,app</description>
+	<description>pingche-weixin,app!!!</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
