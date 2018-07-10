@@ -18,9 +18,8 @@ public class WebController {
         return "index";
     }
 
-    @RequestMapping("/index1")
-    @ResponseBody
+    @RequestMapping("/orderList")
     public String index1() {
-        return "index1";
+        return "order/orderList";
     }
 }

@@ -1,0 +1,43 @@
+html {font-size:20px;}
+@media only screen and (min-width: 351px){ html{font-size: 22.5px !important;}}
+@media only screen and (min-width: 401px){ html{font-size: 25px !important;}}
+@media only screen and (min-width: 428px){html{font-size:26.75px !important;}}
+@media only screen and (min-width: 481px){html{font-size: 30px !important;}}
+@media only screen and (min-width: 569px){html{font-size: 35px !important;}}
+@media only screen and (min-width: 641px){html{font-size: 40px !important;}}
+h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,a,img,em,body,b,strong,span,div,p,i,table,tr,th,td,thead,tbody,label,input,textarea,select,option,section,header,footer{ margin:0;padding:0;-webkit-text-size-adjust:none;font-family:"Microsoft Yahei","微软雅黑",Tahoma,Arial,Helvetica,STHeiti;font-size:80%}
+ul,li,ol{list-style:none outside none;}
+h1,h2,h3,h4,h5,h6{font-weight:500;}
+img{ border:0 none; vertical-align:middle;}
+input,select{vertical-align:middle;}
+a{text-decoration:none;}
+table { border-collapse:collapse; }
+address, caption, cite, code, dfn, th, var, optgroup{font-style: inherit;font-weight: inherit;}
+em,i{font-style: normal;font-weight: normal;}
+span em i{display:inline-block}
+abbr, acronym {border: 0;font-variant: normal;}
+input, button, textarea, optgroup, option {font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;}
+input, button, textarea, select {*font-size: 100%;}
+input[type="text"], input[type="password"], textarea { outline-style:none; -webkit-appearance:none; }
+textarea{ resize:none;}
+input,textarea,button {border:0 none;background:#fff;}
+input,textarea,a,button {outline:none;}
+input::-moz-focus-inner {border:0;}
+.clear:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; font-size:0; }
+.clear{ zoom:1; }
+blockquote, q{quotes:none;}
+blockquote:before, blockquote:after,
+q:before, q:after{content:'';content:none;}
+.clearfix:before,
+.clearfix:after{content:""; display:table;}
+.clearfix:after{clear:both;}
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix{zoom:1;}
+.bgc{background:#f1f1f1;}
+
+.fr{
+    float:right;
+}
+.fl{
+    float:left;
+}
